@@ -2,10 +2,10 @@ from phi.agent import Agent
 from phi.model.groq import Groq
 from phi.tools.yfinance import YFinanceTools
 from phi.tools.duckduckgo import DuckDuckGo
-import phi.tools.duckduckgo as ddg_module
-print(dir(ddg_module))
-import phi.utils as utils
-print(dir(utils))
+# import phi.tools.duckduckgo as ddg_module
+# print(dir(ddg_module))
+# import phi.utils as utils
+# print(dir(utils))
 
 web_search_agent = Agent(
     name = "WEB Search Agent",
